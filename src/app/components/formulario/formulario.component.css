@@ -1,0 +1,103 @@
+body {
+  background-color: rgb(157, 179, 199);
+  margin: 5em;
+  border-radius: 8px;
+  border: 3px solid darkcyan;
+  font-style: italic;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    }
+
+fieldset {
+  border: 1px solid darkcyan;
+  border-radius: 8px;
+  width: 30%;
+  margin: auto;
+  box-shadow: 0 0 10px black;
+}
+h1 {
+margin-top: 15px;
+text-align: center;
+font-size: 3em;
+padding: 15px;
+font-weight: bold;
+color: darkcyan;
+text-align: center;
+}
+
+caption, details, legend, p {
+text-align: center;
+font-size: 19px;
+padding: 10px;
+font-weight: bold;
+color: darkcyan;
+text-align: center;
+}
+
+caption {
+border: 1px solid darkcyan;
+border-radius: 8px;
+}
+
+#tabla{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+
+
+}
+.mat-form-field {
+  display: inline;
+  justify-content: center;
+  border-radius: 8px;
+
+
+}
+
+#eliminar:hover, #editar:hover {
+box-shadow: 0 0 10px black;
+background-color: rgb(20, 92, 92);
+cursor: pointer;
+}
+
+
+  #botonCrear, #botonGuardar, #botonCancelar{
+    box-shadow: 0 0 10px black;
+    height: 50px;
+    background-color: darkcyan;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 30%;
+  }
+
+  th{
+    background-color: darkcyan;
+    color: white;
+
+  }
+
+th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+    padding: 10px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+  }
+
+.desplegable {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+  th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+    padding: 18px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    text-align: center;
+  }
